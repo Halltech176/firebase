@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase 9</title>
+</head>
+<body>
+<h1>Get started with Firebase 9</h1>
+
+<h2>Firebase firestore</h2>
+
+<form class="add">
+    <label for="title">Title :</label>
+    <input type="text" name="title" required id=""><br>
+
+    <label for="author">author :</label>
+    <input type="text" name="author" required id="">
+
+    <button>Add a new book</button>
+</form>
+
+<form class="delete">
+    <label for="id">Document id :</label>
+    <input type="text" name="id" required>
+    <button>delete a book</button>
+</form>
+
+<form class="update">
+    <label for="id">Document id :</label>
+    <input type="text" name="id" required>
+    <button>update a book</button>
+</form>
+
+
+<h2>Firebase auth</h2>
+<form class="signup">
+    <label for="email">email :</label>
+    <input type="email" name="email" required>
+    <label for="password">password :</label>
+    <input type="password" name="password" required>
+    <button>signup</button>
+</form>
+
+<h2>Firebase login</h2>
+<form class="login">
+    <label for="email">email :</label>
+    <input type="email" name="email" required>
+    <label for="password">password :</label>
+    <input type="password" name="password" required>
+    <button>login</button>
+</form>
+
+<button class="logout">logout</button>
+<script src="bundle.js"></script>
+</body>
+</html>
